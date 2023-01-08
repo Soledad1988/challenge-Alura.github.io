@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta none="viewport" content="width=device-width">
+
+        <title>Encriptador</title>
+        <script src="https://kit.fontawesome.com/0c8048699f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="#">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+    <body>
+    <header>
+        <div class="caja">
+            <img src="Imagenes/alura.png" class="alura">
+            <div class="redes">
+                <a href="https://github.com/Soledad1988" target="_blank" class="btn btn-light ms-1"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/brendastorress/" target="_blank" class="btn btn-light ms-1"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/torres-brenda-soledad" target="_blank" class="btn btn-light ms-1"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <h3 class="titulo-principal">Encriptador de Texto</h3>
+
+    <main class="contenedor">
+        
+        <section class="parte parte1">
+            <!--<p>Cuadro de texto</p>-->
+            <textarea name="text" id="text" cols="30" rows="10" class="text-area" placeholder="Inserte el texto" autofocus></textarea>
+            <p class="mje" id="error"><img src="imagenes/Vector.png" alt="icono">Solo letras minusculas y sin acentos</p>
+            
+            <div class="botones">
+                <div>
+                    <button class="btn btn-primary p-1">Encriptar</button>
+                </div>
+                <div>
+                    <button class="btn btn-info p-1">Desencriptar</button>
+                </div>
+            </div>
+        
+        </section>
+
+        <section class="parte parte2">
+        <!--<p>Encriptador</p>-->
+
+            <div class="card card2">
+            <div>
+                <img src="imagenes/img.png" alt="imagen muneco" class="image imagen" id="imagen">
+                </div>
+
+                <aside id="resultado">
+                    <h1 class="center">Ningun mensaje fue encontrado</h1>
+                    <p class="center">Ingresa el texto que desees encriptar o desencriptar</p>
+                </aside>
+                
+                <div class="botones boton">
+                    <button class="btn-info p-1 copiar" id="copiar" hidden>Copiar</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="copyrigth">&copy Copyright Torres Brenda - 2023</p>
+    </footer>
+
+
+    </body>
+</html>
