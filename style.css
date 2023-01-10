@@ -20,6 +20,12 @@ header{
     float: left;
 }
 
+.alura{
+    width: 32px;
+    height: 48px;
+    border-radius: 10px;
+}
+
 .redes{
     border: 0;
     padding: 6px;
