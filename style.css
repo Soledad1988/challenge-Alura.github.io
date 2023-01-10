@@ -10,9 +10,15 @@ body{
 
 header{
     background-color: rgb(197, 120, 133);
+    height: 45px;
     padding: 20px;
 }
 
+.logo{
+    width: 32px;
+    height: 48px;
+    float: left;
+}
 
 .redes{
     border: 0;
